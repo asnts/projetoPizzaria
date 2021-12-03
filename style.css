@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+
+    background-color: #f3f335;
+    height: 150px;
+    display: flex;
+   justify-content: space-between;
+}
+.logo{
+ width: 20%;   
+}
+.imagem{
+    display: flex;
+    align-items: center;
+}
+.imagem img{
+    margin: 10% auto;
+
+}
+.container-nav{
+ width: 80%;   
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   height: 150px;
+
+}
+ul a {
+    text-decoration: none;
+    }
+ul a li {
+    list-style: none;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+.container-conteudo {
+display: flex;
+justify-content: space-evenly;
+height: 440px;
+align-items: flex-start;
+}
+.foto{
+    
+    width: 50%;
+
+}
+.texto h1{
+    margin-top: 18px;
+    width: 50%;
+    padding: 2%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.texto p{
+    padding: 2%;
+    margin-top: 05px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    font-size: 20px;
+}
+.container-cardapio{
+ display: flex;   
+}
+.card{
+    text-align: center;
+    background-color: #636334
+}
+.card img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid black ;
+
+}
+.card h1{
+    text-align: center;
+}
+.card p{
+    padding: 22px;
+    text-align: justify;
+}
+.card button{
+    color: #636334 ;
+    border: none;
+    background-color: black;
+
+}
